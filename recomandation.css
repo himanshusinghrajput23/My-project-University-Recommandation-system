@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .left {
+    width: 30%;
+    padding: 20px;
+  }
+  
+  .right {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #00C793;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .filter {
+    margin-bottom: 20px;
+  }
+  
+  .filter-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .filter-item label {
+    margin-right: 10px;
+  }
+  
+  .filter-item select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .college {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .college-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .college-info {
+    margin-bottom: 5px;
+  }
+  
+  .college-info label {
+    margin-right: 5px;
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian College Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>UNIVERSITY RECOMMANDATION SYSTEM</h1>
+        <p>Find top engineering colleges in India</p>
+    </header>
+
+    <main class="container">
+        <div class="filters">
+            <h2>Filter Colleges</h2>
+            <div class="filter-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" placeholder="Enter city or state...">
+            </div>
+            <div class="filter-group">
+                <label for="maxFees">Maximum Fees (₹):</label>
+                <input type="number" id="maxFees" placeholder="Enter max fees...">
+            </div>
+            <div class="filter-group">
+                <label for="program">Program:</label>
+                <input type="text" id="program" placeholder="Enter program name...">
+            </div>
+            <div class="filter-group">
+                <label for="minRank">Minimum NIRF Rank:</label>
+                <input type="number" id="minRank" placeholder="Enter minimum rank...">
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="collegeTable">
+                <thead>
+                    <tr>
+                        <th>College</th>
+                        <th>Location</th>
+                        <th>NIRF Rank</th>
+                        <th>Fees (₹)</th>
+                        <th>Programs</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody id="collegeTableBody">
+                    <!-- Table content will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
